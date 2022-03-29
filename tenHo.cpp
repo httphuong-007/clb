@@ -18,7 +18,7 @@ int main()
     }
     for(int i = 0; i < strlen(a)/2 ; i++)
     {
-        char c = a[i];
+        char tc = a[i];
         a[i] = a[strlen(a)-1-i];
         a[strlen(a)-1-i] = c;
     }
